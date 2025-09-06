@@ -23,13 +23,31 @@ except Exception as e:
 # --- HTMLテンプレート（文字列として埋め込む） ---
 INDEX_HTML = """
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
-    <title>ファイルエディタ</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ホームページ - pokemoguプロジェクト</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="https://kakaomames.github.io/Minecraft-flask-app/static/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://kakaomames.github.io/Minecraft-flask-app/static/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://kakaomames.github.io/Minecraft-flask-app/static/favicon-16x16.png">
+<link rel="manifest" href="https://kakaomames.github.io/Minecraft-flask-app/static/site.webmanifest">
+    <link rel="stylesheet" href="https://kakaomames.github.io/Minecraft-flask-app/static/style.css">
 </head>
 <body>
-    <h1>ファイルエディタへようこそ！</h1>
-    <a href="/home">ホームへ</a>
+    <header>
+        <h1>HOME🏠</h1>
+        <nav>
+            <ul>
+                <li><a href="/home">ホーム</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    </main>
+    <footer>
+        <p>&copy; 2025  pokemoguプロジェクト</p>
+    </footer>
 </body>
 </html>
 """
